@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sign Language Translator</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_profile_update">profile_update</string>
+    <string name="hello_world">Hello Square World!</string>
+    <string-array name="phrase">
+        <item>Good Morning</item>
+        <item>Happy Birthday</item>
+        <item>How are you!</item>
+    </string-array>
+    <string name="behance"><a href="https://www.behance.net/heetpatel6">Behance Profile</a></string>
+    <string name="linkedIn"><a href="https://www.linkedin.com/in/heetpatel1011">Linked In Profile</a></string>
+
+</resources>

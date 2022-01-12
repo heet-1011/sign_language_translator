@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1037974908597",
+    "project_id": "sign-translator-app",
+    "storage_bucket": "sign-translator-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037974908597:android:e3779515047b6ceb8c58fc",
+        "android_client_info": {
+          "package_name": "com.hp.signlanguagetranslator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037974908597-1jitorrcji12s055ntbv8h6gpdjq29cr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hp.signlanguagetranslator",
+            "certificate_hash": "ad12efbf7b0f7ef6c32accefed65c9bc752464a9"
+          }
+        },
+        {
+          "client_id": "1037974908597-t5n5icrptdtnfnenvkmo9puocv80ptbk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMA4PAwKyDBSqxoBYk_AUghDxyqQZP5qo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037974908597-t5n5icrptdtnfnenvkmo9puocv80ptbk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

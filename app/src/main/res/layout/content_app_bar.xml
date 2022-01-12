@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/content_app_bar"
+    android:background="@color/cream50"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:id="@+id/about_us"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:translationZ="5dp"
+        app:layoutDescription="@xml/content_app_bar_xml_about_us_scene">
+
+        <ImageView
+            android:id="@+id/bg"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/cream"
+            app:layout_constraintTop_toTopOf="@id/bar"/>
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/Theme.SignLanguageTranslator.AppBarOverlay"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarNew"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/brown"
+                app:popupTheme="@style/Theme.SignLanguageTranslator.PopupOverlay">
+
+                <ImageView
+                    android:id="@+id/back_icon"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_ui_basic_glyph_80"
+                    app:tint="@color/cream" />
+
+                <TextView
+                    android:id="@+id/slt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="15dp"
+                    android:fontFamily="@font/player"
+                    android:gravity="end|center_vertical"
+                    android:text="@string/app_name"
+                    android:textColor="@color/cream"
+                    android:textSize="23sp" />
+
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="About"
+            android:textAlignment="center"
+            android:textColor="@color/brown"
+            android:textSize="25sp"
+            app:layout_constraintTop_toBottomOf="@id/bar" />
+
+        <TextView
+            android:id="@+id/textabout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/roboto"
+            android:text="We are here to help deaf and dumb people to make conversation with the people who didn't understand their sign language"
+            android:textColor="@color/brown"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/about" />
+
+        <TextView
+            android:id="@+id/developer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Developer"
+            android:textAlignment="center"
+            android:textColor="@color/brown"
+            android:textSize="25sp"
+            app:layout_constraintTop_toBottomOf="@id/textabout" />
+
+        <TextView
+            android:id="@+id/textdeveloper1"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/roboto"
+            android:text="Heet Patel"
+            android:textAlignment="center"
+            android:textColor="@color/brown"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/developer" />
+
+        <TextView
+            android:id="@+id/textdeveloper0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/behance"
+            android:textColor="@color/brown"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textdeveloper1" />
+
+        <TextView
+            android:id="@+id/textdeveloper"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/linkedIn"
+            android:textColor="@color/brown"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textdeveloper0" />
+
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.SignLanguageTranslator.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/brown"
+            app:popupTheme="@style/Theme.SignLanguageTranslator.PopupOverlay" >
+
+            <ImageView
+                android:id="@+id/hamburger_icon"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/ic_hamburger_icon"
+                app:tint="@color/cream" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="end|center_vertical"
+                android:layout_marginEnd="15dp"
+                android:fontFamily="@font/player"
+                android:text="@string/app_name"
+                android:textColor="@color/cream"
+                android:textSize="23sp" />
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_main"
+        android:layout_marginTop="55dp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

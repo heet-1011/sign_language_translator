@@ -14,9 +14,6 @@ medium for those special peoples and in some cases using
 the Frequent Phrases feature of our application, there is no
 need of capturing the photos just they need to press single
 button.</p>
-<div width="1000" height="1000" align="center">
-<a href="https://drive.google.com/uc?export=view&id=1Ln6ygs-BN-2vKoM2-mVRKX12wX_T4p-5" style="align:right"><img src="https://drive.google.com/uc?id=1ClpDp9EduigIOBav7KNeiv9_CP2sgJuG" align="center" height="250" width="250" ></a>
-<p>Click Image To Preview Working App</p>
 </div>
 
 ## Author

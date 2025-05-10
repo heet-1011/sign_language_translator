@@ -15,10 +15,3 @@ the Frequent Phrases feature of our application, there is no
 need of capturing the photos just they need to press single
 button.</p>
 </div>
-
-## Author
-Heet Patel
-
-<a href="https://www.behance.net/heetpatel6">Behance</a>
-
-<a href="https://github.com/heet-1011/">Github</a>
